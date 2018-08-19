@@ -1,0 +1,198 @@
+body {
+    min-width: 1040px;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Arial", sans-serif;
+    color: #404040;
+    background-color: white;
+}
+.map {
+	position: relative;
+	text-align: center;
+	background-color: #f4f0e4;
+}
+img {
+	width: 1510px;
+}
+.circle {
+	position: absolute;
+	left:1531px;
+	top: 775px;
+	width: 16px;
+	height: 16px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+.circleTwo {
+	position: absolute;
+	left:566px;
+	top: 336px;
+	width: 16px;
+	height: 16px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	cursor: pointer;
+
+}
+.circleThree {
+	position: absolute;
+	left:437px;
+	top: 530px;
+	width: 16px;
+	height: 16px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	cursor: pointer;
+
+}
+.circleFour {
+	position: absolute;
+	left:400px;
+	top: 413px;
+	width: 16px;
+	height: 16px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	cursor: pointer;
+
+}
+.circleFive {
+	position: absolute;
+	left:380px;
+	top: 408px;
+	width: 16px;
+	height: 16px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	cursor: pointer;
+
+}
+.tooltip:before,
+.tooltip:after {
+  display: block;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0; 
+  margin-bottom: 15px;
+  transition: opacity .7s, margin-bottom .7s;
+  left: 50%;
+}
+
+.tooltip {
+  color: yellow;
+  position: relative;
+  cursor: pointer;
+  
+}
+
+.tooltip:before {
+  bottom: 30px;
+  left: 50%;
+  padding: 10px;
+  min-width: 100px;
+  max-width: 200px;
+  margin-left: -100px;
+  color: black;
+  background-color: white;
+  content: attr(data-title);
+  border-radius: 5px;
+  box-shadow: border-box;
+  text-align: center;
+}
+
+.tooltip:after {
+  content: "";
+  border-top: 10px solid white;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  bottom: 20px;
+  margin-left: -10px;
+}
+
+.tooltip:hover:before,
+.tooltip:hover:after {
+  opacity: 1;
+  margin-bottom: 0;
+  visibility: visible;
+}
+.pic img {
+	position: absolute;
+	display: block;
+	width: 88px;
+	height: 88px;
+
+}
+.pic {
+	  position: absolute;
+	  padding: 5px;
+	  width: 90px;
+	  height: 90px;
+	  color: black;
+	  background-color: white;
+	  border-radius: 5px;
+	  box-shadow: border-box;
+	 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+.pic:after {
+  position: relative;
+  content: "";
+  border-top: 10px solid white;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: 100px;
+} 
+.one {
+	left: 300px;
+	top: 300px;
+}
+.two {
+	left: 320px;
+	top: 450px;
+}
+
+.three {
+	left: 440px;
+	top: 250px;
+
+}
+.four {
+ 	left: 440px;
+	top: 400px;
+}
+.five {
+	left: 550px;
+	top: 360px;
+}
+.six {
+	left: 550px;
+	top: 230px;
+}
+.seven {
+	left: 1350px;
+	top: 640px;
+
+}
+.eight {
+	left: 1490px;
+	top: 600px;
+
+}
