@@ -10,10 +10,10 @@ while (i<100) {
 var r = 0;
 while (r<100) {
 	$('#animateTwo').hide(0);
-	$('#animateTwo').delay(4000);
+	$('#animateTwo').delay(3000);
  	$('#animateTwo').fadeIn(500);
 	$('#animateTwo').delay(3000);
 	$('#animateTwo').fadeOut(500);
-	$('#animateTwo').delay(3000);
+	$('#animateTwo').delay(4000);
 	r++;
 }
