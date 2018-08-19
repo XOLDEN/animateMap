@@ -1,8 +1,8 @@
 var i = 0;
 while (i<100) {
-	$('#animate').fadeIn(500);
+	$('#animate').fadeIn(1000);
 	$('#animate').delay(3000);
-	$('#animate').fadeOut(500);
+	$('#animate').fadeOut(1000);
 	$('#animate').delay(7000);
 
 	i++;
@@ -13,7 +13,7 @@ while (r<100) {
 	$('#animateTwo').delay(3000);
  	$('#animateTwo').fadeIn(500);
 	$('#animateTwo').delay(3000);
-	$('#animateTwo').fadeOut(500);
-	$('#animateTwo').delay(4000);
+	$('#animateTwo').fadeOut(1000);
+	$('#animateTwo').delay(4500);
 	r++;
 }
